@@ -11,7 +11,7 @@ public class kadai2_2_2
 			if (line == null) {
 				throw new EOFException();
 			}
-			if (isInteger(line) == true){
+			if (isInteger(line)){
 				int dan=Integer.parseInt(line);
 				int y=0;
 				int countflg=0;
